@@ -24,6 +24,15 @@ namespace Warehouse
             int chosenOption = 0;
             Int32.TryParse(choice, out chosenOption );
 
+            Item item = new Item() { Id = 1, Name = "Apple"};
+
+            int a = 5;
+            int b = a;
+
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+
+
 
         }
     }
